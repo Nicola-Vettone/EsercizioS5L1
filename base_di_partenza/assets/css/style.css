@@ -242,6 +242,9 @@ main{
     header{
         text-align: left;
     }
+    header div{
+        margin-right: 30em;
+    }
    header nav ul li{
     margin-right: 0;
     text-align: right;
