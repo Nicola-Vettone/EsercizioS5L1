@@ -242,14 +242,12 @@ main{
         width: 200px;
         margin-right: 2em;
     }
-    header{
-        text-align: left;
-    }
     header div{
         margin-right: 30em;
     }
    header nav ul li{
     margin-right: 0;
+    
    }
    iframe, section {
     display: inline-block;
