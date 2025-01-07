@@ -273,6 +273,19 @@ table{
 h1{
     font-size: 4em;
 }
+section h2{
+    background-color: rgb(163, 163, 163);
+    font-size: 16px;
+}
+form input{
+    width: 25em;
+    height: 3em;
+}
+button{
+    height: 4.4em;
+    width: 9em;
+    font-size: 9px;
+}
 }
 @media print {
     header, iframe, section, aside, footer {
