@@ -235,9 +235,12 @@ main{
     header div, header nav, header p, header img, header li {
         display: inline-block;
         text-align: left;
+        vertical-align: middle;
     }
     header div img {
         margin-bottom: 0;
+        width: 200px;
+        margin-right: 2em;
     }
     header{
         text-align: left;
@@ -247,7 +250,6 @@ main{
     }
    header nav ul li{
     margin-right: 0;
-    text-align: right;
    }
    iframe, section {
     display: inline-block;
@@ -267,6 +269,9 @@ table{
     margin-top: 5em;
     margin-bottom: 5em;
 
+}
+h1{
+    font-size: 4em;
 }
 }
 @media print {
