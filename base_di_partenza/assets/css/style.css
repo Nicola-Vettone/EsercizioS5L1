@@ -240,10 +240,11 @@ main{
         margin-bottom: 0;
     }
     header{
-        vertical-align: center;
+        text-align: left;
     }
-   nav{
+   header nav ul li{
     margin-right: 0;
+    text-align: right;
    }
    iframe, section {
     display: inline-block;
@@ -256,6 +257,13 @@ aside div{
     display: inline-block;
     width:33%;
     margin-inline: 0;
+}
+table{
+    margin: auto;
+    width: 50em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
 }
 }
 @media print {
